@@ -1,8 +1,8 @@
 # Kaggle Toxicity Classification
 
-Competitions:[Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification)  
-Rank:  
-Note: This is a code backup, it's not runable due to the difference file path  
+__Competitions:__ [Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification)  
+__Rank:__   
+__Note:__ This is a code backup, it's not runable due to the difference file path  
 
 
 
@@ -60,7 +60,7 @@ __glove_embedding:__ https://www.kaggle.com/takuok/glove840b300dtxt
 __crawl_embedding:__ https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m
 
 #### BERT model:
-__tf BERT:__ https://www.kaggle.com/maxjeblick/bert-pretrained-models
+__TF BERT:__ https://www.kaggle.com/maxjeblick/bert-pretrained-models
 __convert2Pytorch:__ https://github.com/huggingface/pytorch-pretrained-BERT
 
 #### Others
