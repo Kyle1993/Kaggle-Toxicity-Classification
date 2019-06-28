@@ -14,41 +14,41 @@ __Note:__ This is a code backup, it's not runable due to the difference file pat
 ```
 ----- on-line-inference
   |            |
-  |             ----- toxicity-final-inference.ipynb: Kaggle kernel final submission file
+  |            |----- toxicity-final-inference.ipynb: Kaggle kernel final submission file
   |            |
   |             ----- toxicity_final_inference.py: convert .ipynb to .py
   |
    -- off-line-train
                |
-                ----- features: use to eatract DL features
+               |----- features: use to eatract DL features
                |            |
-               |             ----- dl_train_cv.py: train LSTM models
+               |            |----- dl_train_cv.py: train LSTM models
                |            |
-               |             ----- dl_inference.py: extact LSTM features & predict
+               |            |----- dl_inference.py: extact LSTM features & predict
                |            |
-               |             ----- dl_bert_train.py: train BERT models
+               |            |----- dl_bert_train.py: train BERT models
                |            |
                |             ----- dl_bert_inferecne.py: extact BERT features & predict
                | 
-                ----- emsemble: 1.train and inference on different model 2.ensemble predictions
+               |----- emsemble: 1.train and inference on different model 2.ensemble predictions
                |            | 
-               |             ----- nn_train_inference.py: NN train & predict
+               |            |----- nn_train_inference.py: NN train & predict
                |            | 
-               |             ----- lgb_train_inference.py: LGB train & predict
+               |            |----- lgb_train_inference.py: LGB train & predict
                |            | 
-               |             ----- random_forest_train_inference.py: RF train & predict
+               |            |----- random_forest_train_inference.py: RF train & predict
                |            | 
-               |             ----- xgb_train_inference.py: XGB train & predict
+               |            |----- xgb_train_inference.py: XGB train & predict
                |            | 
                |             ----- ensemble.py: custom ensemble predictions 
                |
-                ----- text_process5.py: text preprocess
+               |----- text_process5.py: text preprocess
                |
-                ----- models.py: Pytorch DL models 
+               |----- models.py: Pytorch DL models 
                |
-                ----- dataset_helper.py: custom DataLoader
+               |----- dataset_helper.py: custom DataLoader
                |
-                ----- global_variable.py: global_variable
+               |----- global_variable.py: global_variable
                |
                 ----- utils.py
 ```
