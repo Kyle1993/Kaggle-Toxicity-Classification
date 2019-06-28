@@ -56,12 +56,12 @@ __Note:__ This is a code backup, it's not runable due to the difference file pat
 ## External Data  
 
 #### Embedding:  
-__glove_embedding:__ https://www.kaggle.com/takuok/glove840b300dtxt
-__crawl_embedding:__ https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m
+__glove_embedding:__ https://www.kaggle.com/takuok/glove840b300dtxt  
+__crawl_embedding:__ https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m  
 
 #### BERT model:
-__TF BERT:__ https://www.kaggle.com/maxjeblick/bert-pretrained-models
-__convert2Pytorch:__ https://github.com/huggingface/pytorch-pretrained-BERT
+__TF BERT:__ https://www.kaggle.com/maxjeblick/bert-pretrained-models  
+__convert2Pytorch:__ https://github.com/huggingface/pytorch-pretrained-BERT  
 
 #### Others
-__apex(use for speed up training):__ https://www.kaggle.com/gabrichy/nvidiaapex
+__apex(use for speed up training):__ https://www.kaggle.com/gabrichy/nvidiaapex  
