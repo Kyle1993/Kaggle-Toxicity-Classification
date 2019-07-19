@@ -1,7 +1,7 @@
 # Kaggle Toxicity Classification
 
 __Competitions:__ [Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification)  
-__Rank:__   
+__Rank:__ 262/3165(top 9%, bronze)   
 __Task:__ Text Classification, Predict toxicity text
 __Data:__ trianset:1800k labeled comment text, 'target' is label, many other identity label can be use to help training; testset: 100k comment text  
 __Evaluation:__ 4 parts , refer [Competition Evaluation](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/overview/evaluation)  
