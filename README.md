@@ -2,7 +2,7 @@
 
 __Competitions:__ [Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification)  
 __Rank:__ 262/3165(top 9%, bronze)   
-__Task:__ Text Classification, Predict toxicity text
+__Task:__ Text Classification, Predict toxicity text  
 __Data:__ trianset:1800k labeled comment text, 'target' is label, many other identity label can be use to help training; testset: 100k comment text  
 __Evaluation:__ 4 parts , refer [Competition Evaluation](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/overview/evaluation)  
 __Note:__ This is a code backup, it's not runable due to the difference file path  
@@ -27,6 +27,7 @@ __Note:__ This is a code backup, it's not runable due to the difference file pat
 	* 用的是stacking，所以要拼凑出一份完成的训练集预测  
 	* 因为评估标准是custom AUC，做stacking的时候如果选择regression的logistic loss和一般的AUC作为metric，不能很好的指示训练效果，这里自己写了一个随机搜索权重的算法，每次随机选择几个模型增加或减小其权重，直到连续n轮得分不再上涨，（refer ensemble.py）  
 	
+
 <img src="./toxicity_architectural.png">
 
 
