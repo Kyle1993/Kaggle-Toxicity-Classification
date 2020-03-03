@@ -10,6 +10,7 @@ __Note:__ This is a code backup, it's not runable due to the difference file pat
 
 
 ## Solution  
+
 1. __文本预处理：__  
 	* 预处理的方式要贴近pretrain-embedding的处理方式，不要盲目使用lower, stopword, 词根提取 等等（ refer text_process5.py）  
 	* 对不同的embedding使用不同的文本预处理方法，目的还是跟1一样
@@ -74,7 +75,9 @@ __Note:__ This is a code backup, it's not runable due to the difference file pat
                 ----- utils.py
 ```
 
-## External Data  
+
+
+## External Data
 
 #### Embedding:  
 __glove_embedding:__ https://www.kaggle.com/takuok/glove840b300dtxt  
@@ -86,3 +89,25 @@ __convert2Pytorch:__ https://github.com/huggingface/pytorch-pretrained-BERT
 
 #### Others
 __apex(use for speed up training):__ https://www.kaggle.com/gabrichy/nvidiaapex  
+
+
+
+## Note
+
+[3rd place solution](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/97471)
+
+[2nd place solution](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/100661)
+
+基本是BERT XLNET GPT的ensemble，不搞手工特征  
+
+说明我的BERT模型仍有很大提升空间，这有一部分是基于硬件换件限制，还有一些则是经验和理解的问题  
+
+**Tricks:**
+
+1. Multi-Task，训练集带有一些额外标签，可以用于辅助训练，效果提升明显  
+2. 过长语句处理，head + tial，删去中间部分，因为一段文字一般开头结尾最重要  
+3. text-preprocess，这个应该要根据具体任务而定，如果需要process，也是要按照预训练模型的process方式，不要用大小写或者stop word  
+4. lr warmup是个有用的东西，至少在NLP很多任务里都管用  
+
+
+
